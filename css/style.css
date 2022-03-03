@@ -4,14 +4,17 @@
 /*Blue*/
 /*Gray*/
 .navbar {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .navbar .container .navbar-brand {
   color: black;
 }
+
 .navbar .container .navbar-brand img {
   width: 55px;
 }
+
 .navbar .navbar-main li .nav-link .active {
   text-decoration: underline wavy #AA86E0;
   text-underline-offset: 9px;
@@ -32,9 +35,8 @@ footer {
   display: flex;
   justify-content: center;
 }
+
 footer div p {
   padding: 8px;
-  font-family: "Cinzel Decorative", cursive;
+  font-family: 'Cinzel Decorative', cursive;
 }
-
-/*# sourceMappingURL=style.css.map */
