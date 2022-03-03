@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+footer {
+    background-color: ($color-purple-light);
+    display: flex;
+    justify-content: center;
+    div {
+        p{
+            padding: 8px;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+    }
+}

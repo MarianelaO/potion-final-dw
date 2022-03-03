@@ -1,0 +1,25 @@
+@import '../base/variables';
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+   
+    .container {
+        .navbar-brand {
+            color: black;
+            img {
+                width: 55px;
+            }
+        }
+        
+    }
+
+    .navbar-main {
+        li  {
+            .nav-link .active {
+                text-decoration: underline wavy ($color-purple-full);
+                text-underline-offset: 9px;
+            }
+            
+        }
+    }
+}
