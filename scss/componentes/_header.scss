@@ -1,0 +1,36 @@
+@import '/scss/base/mixins';
+@import '/scss/base/variables';
+
+
+header {
+    .col-md-7 {
+        h1 {
+            font-family: $cinzel-bold-cursive;
+            span {
+
+            }
+        }
+        p {
+
+        }
+        .icons-social-networks{
+            a {
+                img { 
+
+                }
+            }
+        }
+    }
+
+    .col-8 {
+        .photo-frame::before, .photo-frame::after {
+            @extend %photoFrameAB;
+        }
+        .photo-frame::before {
+            @extend %photoFrameBefore;
+        }
+        .photo-frame::after {
+            @extend %photoFrameAfter;
+        }
+    }
+}

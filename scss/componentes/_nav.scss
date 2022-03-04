@@ -14,11 +14,15 @@
     }
 
     .navbar-main {
-        li  {
-            .nav-link .active {
-                text-decoration: underline wavy ($color-purple-full);
-                text-underline-offset: 9px;
-            }
+        list-style: none;
+        
+        .nav  {
+            color: black;
+            .active {
+               text-decoration: underline wavy ($color-purple-full);
+                    text-underline-offset: 9px;
+                
+            } 
             
         }
     }

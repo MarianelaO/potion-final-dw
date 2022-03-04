@@ -1,21 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Montserrat:wght@500;800&display=swap");
 /*------  COLORES --------*/
 /*Purple*/
 /*Yellow*/
 /*Blue*/
-/*Gray*/
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Montserrat:wght@500;800&display=swap");
 .navbar {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 .navbar .container .navbar-brand {
   color: black;
 }
-
 .navbar .container .navbar-brand img {
   width: 55px;
 }
-
-.navbar .navbar-main li .nav-link .active {
+.navbar .navbar-main {
+  list-style: none;
+}
+.navbar .navbar-main .nav {
+  color: black;
+}
+.navbar .navbar-main .nav .active {
   text-decoration: underline wavy #AA86E0;
   text-underline-offset: 9px;
 }
@@ -24,19 +32,30 @@
 /*Purple*/
 /*Yellow*/
 /*Blue*/
-/*Gray*/
+/*Fuentes*/
 /*------  COLORES --------*/
 /*Purple*/
 /*Yellow*/
 /*Blue*/
-/*Gray*/
+/*Fuentes*/
 footer {
   background-color: #D8C8F0;
   display: flex;
   justify-content: center;
 }
-
 footer div p {
   padding: 8px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
 }
+
+/*------  COLORES --------*/
+/*Purple*/
+/*Yellow*/
+/*Blue*/
+/*Fuentes*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
